@@ -1,0 +1,38 @@
+{
+  "name": "585lpr",
+  "version": "0.0.1",
+  "description": "DEF CON Group 585 License Plate Reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests defined\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rossja/585lpr.git"
+  },
+  "keywords": [
+    "lpr",
+    "license",
+    "plate",
+    "reader",
+    "defcon",
+    "groups",
+    "defcon",
+    "dc585"
+  ],
+  "author": "rossja <algorythm@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rossja/585lpr/issues"
+  },
+  "homepage": "https://github.com/rossja/585lpr#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cloudinary": "^1.9.0",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.4",
+    "dotenv-safe": "^4.0.4",
+    "express": "^4.15.5",
+    "helmet": "^3.8.1"
+  }
+}
